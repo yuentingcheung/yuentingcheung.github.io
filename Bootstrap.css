@@ -1,0 +1,450 @@
+/*-------------------------------------------*/
+/* part 1*/
+/*-------------------------------------------*/
+.part-1{
+	list-style: none;
+	background: black;
+	margin-top: 0;	
+	padding: 29px;
+}
+
+.part-1 li{
+	display: inline;
+}
+
+.part-1 li a{
+	text-decoration: none;
+}
+
+.menu-1 li a{
+	font-family: sans-serif;
+	color: #a9a9a9;
+	padding: 10px;	
+	font-size: 13px;
+}
+
+
+
+.menu-1 li a:hover,
+.menu-1 li a:active{
+	color: #ffffff;
+	transform: 0.2s;
+}
+
+.menu-1 ul {
+	float: left;
+}
+
+.menu-1>a {
+	float: right;
+}
+
+.menu-2 li a:hover,
+.menu-2 li a:active{
+	color: #ffffff;
+	transform: 0.2s;
+}
+
+.menu-1 a{
+	font-family: cursive;
+	font-size: 30px;
+	text-decoration: none;
+	color: #1f1f1f;
+	text-shadow: 0px 0px 0px .3em #ffffff, 0 0 0.3em #ffffff;
+}
+.menu-1 a:hover,
+.menu-1-a:active{
+	color: #ffffff;
+	transform: 0.5s;
+	
+}
+
+.sticky{
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 100%;
+	background-color: #0f0f0f;
+}
+
+
+
+
+/*-------------------------------------------*/
+/* part 2*/
+/*-------------------------------------------*/
+
+
+.part-2{
+	background-color: #150a1f;
+	
+	
+}
+.part-2-h1{
+	font-size: 320%;
+	color:#ffffff;
+	font-family: sans-serif;
+	text-align: center;
+	
+}
+h1{
+	margin: 0;
+}
+
+.clear{
+	clear: both;
+	display: none;
+}
+
+.h2{
+	font-size: 120%;
+	color: #ffffff;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.bt-1{
+	text-align: center;
+}
+
+.download-bt{
+	background: #5088ff;
+	height: 50px;
+	width: 170px;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	font-size:17px;
+	border-radius: 5px;
+}
+
+.menu-3{
+	text-align: center;
+}
+.menu-3 ul li{
+	display: inline;
+	padding: 15px;
+}
+
+.menu-3 ul li a{
+	color: #343434;
+	text-decoration: none;
+}
+
+.menu-3 ul li:last-child a{
+	color:#4c4c4c;
+	text-decoration: none;
+}
+
+.menu-3 ul li a:hover,
+.menu-3 ul li a:active{
+	color: #ffffff;
+	text-decoration: underline;
+	transform: 0.4s;
+
+}
+
+.menu-3 ul li:last-child a:hover,
+.menu-3 ul li:last-child a:active{
+	color: #4c4c4c;
+	text-decoration: none;
+}
+
+
+.img-word a{
+	color: #ffffff;
+	text-decoration: none;	
+}
+
+.img-word a:last-child{
+	color: #f29eff;
+}
+.img-word a:hover,
+.img-word a:active{
+	 text-decoration: underline;
+ }
+ 
+.img-word{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 90px;
+	position: relative;
+	z-index: 0;
+}
+
+.img-word p{
+	position: absolute;
+	z-index: 10;
+	left:49%;
+	width: 170px;
+	top:29px; 
+	
+	
+}
+
+ 
+ /*-------------------------------------------*/
+/* part 3*/
+/*-------------------------------------------*/
+
+.part-3{
+	background-color: #cecece;
+}
+	
+.bt-2{
+	text-align: center;
+}
+.btn-primary-3,
+.btn-primary-4{
+	background-color: #5795ff;
+}
+.btn-primary-1,
+.btn-primary-2{
+	border: none;
+	color: black;
+	margin: 20px;
+	border-radius: 5px;
+}
+.btn-primary-3,
+.btn-primary-4 {
+	border: none;
+	color: #ffffff;
+	margin: 20px;
+	border-radius: 5px;
+}
+
+
+/*-------------------------------------------*/
+/* part 4*/
+/*-------------------------------------------*/
+
+.part-4{
+	background-color: #ffa6a6;
+	text-align: center;
+	margin-left: 180px;
+	margin-right: 180px;
+	height: 30px; 
+	padding-top: 10px;
+	margin-top: 30px;
+	color: #ff3737;
+}
+.a-2{
+	color: blue;
+	text-decoration: none;
+}
+.a-2:hover,
+.a-2:active{
+	text-decoration: underline;
+	color: #3c4a3c;
+	transform: 0.2s;
+}
+
+
+.container{
+	margin:0 45px;
+	border-sizing:border-box;
+}
+
+/*-------------------------------------------*/
+/* part 5*/
+/*-------------------------------------------*/
+
+.part-5-h1{
+	font-size: 200%;
+	text-align: center;
+	padding-top: 50px;
+	color: #7f7f7f;
+}
+
+.part-5-h2{
+	text-align: center;
+	padding-top: 1px;
+	color: #b9b7b7;
+}
+
+.pic-box-ul {
+	list-style: none;
+	width: 100%;
+	padding-left: 0;
+	margin-top: 50px;
+	text-align: center;
+
+}
+
+.pic-box{
+	margin-bottom: 480px;
+	text-align: center;
+}
+
+.pic-box-ul li{
+	float: left;
+	width: 33%;
+	padding: 0;	
+	
+}
+
+
+h3{
+	font-size: 200%;
+	color: #7d7d7d;
+}
+
+.pic-box-a p{
+	color: #7d7d7d;
+}
+
+.pic-box-a a{
+	color: #64c3ff;
+	text-decoration: none;
+}
+
+.pic-box-a a:hover,
+.pic-box-a a:active{
+	color: #1660ff;
+	text-decoration: underline;
+}
+
+/*-------------------------------------------*/
+/* part 6*/
+/*-------------------------------------------*/
+
+.part-6-h1{
+	font-size: 200%;
+	text-align: center;
+	padding-top: 50px;
+	color: #7f7f7f;
+}
+
+.part-6-h2{
+	text-align: center;
+	padding-top: 1px;
+	color: #b9b7b7;
+}
+
+.part-6-h2 a{
+	color:  #64c3ff;
+	text-decoration: none;
+} 
+
+.part-6-h2 a:hover,
+.part-6-h2 a:active{
+	color: #1660ff;
+	text-decoration: underline;
+}
+
+
+.pic-box-4-ul{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	margin-top: 50px;	
+}
+
+
+.pic-box-4-ul li{
+	float: right;
+	width: 25%;
+	padding: 0;	
+	
+}
+.part-6{
+	margin-bottom: 350px;
+	margin-left: 0;
+	
+}
+.pic-6{
+	margin-right: 5%;
+}
+
+.pic-6:hover,
+.pic-6:active{
+	border: 2px solid #55a4ff;
+	transform: 0.7s;
+	border-radius: 5px;
+}
+
+/*-------------------------------------------*/
+/* part 7*/
+/*-------------------------------------------*/
+
+footer{
+	background-color: #d4d4d4;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	text-align: center; 
+	color: #717171;
+	
+}
+.part-7 a{
+	text-decoration: none;
+	color: #6bb0ff;
+}
+.part-7 a:hover,
+.part-7 a:active{
+	text-decoration: underline;
+	color: #00204c;
+}
+
+
+/*-------------------------------------------*/
+/* part 8  phones and iPads*/
+/*-------------------------------------------*/
+
+/*big table to 1200px (widths smaller than the 1140px row)*/
+@media only screen and (max-width:1200px;){
+	.part-1,
+	.part-2,
+	.part-3,
+	.part-4
+	.part-7,{
+		width: 100%;
+		padding: 0.2%;
+	}
+	.container{
+		padding: 0.2%;
+	}
+	.pic-box-4-ul{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	margin-top: 50px;	
+}
+.pic-6{
+	margin-right: 5%;
+}
+
+
+}
+
+/*small table to big table (768-1023px)*/
+
+@media only screen and (max-width:1023px;){
+	body{font-size: 18px;
+		}
+	.pic-box-4-ul{
+	list-style: none;
+	width: 100%;
+	text-align: center;
+	padding-left: 0;
+	margin-top: 50px;	
+}
+.pic-6{
+	margin-right: 5%;
+}
+
+}
+
+/*small phones to small table (481-767px)*/
+
+
+/*small phonrs:(0-480px)*/
+
+
+
+
+
+
+
+
