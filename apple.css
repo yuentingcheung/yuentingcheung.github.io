@@ -1,0 +1,184 @@
+/*-------------------------------------------*/
+/* container*/
+/*-------------------------------------------*/
+
+.container{
+	margin: 0 45px;
+	box-sizing: border-box;
+}
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	font-family: 'Lato', 'Arial', sans-serif;
+
+}
+
+/*-------------------------------------------*/
+/* part 1*/
+/*-------------------------------------------*/
+
+.part-1 ul li{
+	display: inline-block;
+	padding-right: 60px;
+	box-sizing: border-box;
+	height: 50px;
+	padding-top: 16.6px;	
+}
+
+.part-1{
+	background-color: #090909;
+	text-align: center;
+	
+}
+
+.part-1 ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: inherit;
+	
+}
+
+
+
+.part-1 ul li a:hover,
+.part-1 ul li a:active{
+	color: #6d6d6d;
+	text-decoration: none;
+	transform: 1.2s;
+}
+
+ul{
+	margin: 0;
+}
+/*-------------------------------------------*/
+/* part 2*/
+/*-------------------------------------------*/
+
+
+#dowebok{
+	height: 550px;
+	padding:0;
+}
+
+
+/*-------------------------------------------*/
+/* part 3*/
+/*-------------------------------------------*/
+
+
+.part-3-ul{
+	display: inline-block;
+	list-style: none;
+	width: 100%;
+	
+}
+
+.part-3-ul li{
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+.photo{
+	width: 100%;
+	margin: 0;
+	overflow: hidden;
+	padding: 4px 4px;
+}
+
+.photo img{
+	opacity: 0.7;
+}
+
+
+
+/*-------------------------------------------*/
+/* part 4*/
+/*-------------------------------------------*/
+
+.part-4{
+	width: 100%;
+	
+}
+
+.part-4 ul{
+	width: 20%;
+	float: left;
+	padding-left: 10%;
+	padding-top: 2%;
+	
+}
+
+.part-4 li{
+	list-style: none;
+	
+}
+
+.part-4 a{
+	font-family: inherit;
+	color: #6d6d6d;
+	font-size: 4px;
+	
+}
+
+
+/*-------------------------------------------*/
+/* part 5   footer*/
+/*-------------------------------------------*/
+
+
+
+.part-5{
+	display: inline-block;
+	padding-top: 4%;
+	margin-left: 10%;
+	width: 100%;
+}
+
+
+.part-5 ul li{
+	display: inline-block;
+	text-decoration: none;
+	color: #6d6d6d;
+}
+
+
+
+.part-5 li a{
+	color: #6d6d6d;
+}
+.part-5 p{
+	color: #6d6d6d;
+}
+
+
+.part-5 a{
+	color:  #6d6d6d;
+}
+
+.part-5 li a:hover,
+.part-5 li a:active,
+.part-5 p a:hover,
+.part-5 p a:active{
+	color: #505050;
+	text-decoration: underline;
+}
+.clear{
+	clear: both;
+}
+
+.footer-1 {
+	width: 1000px;
+	margin: 0;
+}
+
+.footer-2 a{
+	float: right;
+}
